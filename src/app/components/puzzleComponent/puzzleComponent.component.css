@@ -1,0 +1,22 @@
+.box{
+  border-style: ridge;
+  min-width: 200px;
+  min-height:200px;
+  /*align-items: center;*/
+}
+
+.puzzle{
+  margin-top: 40px;
+}
+#right{
+  padding-right: 40%;
+}
+
+.inputFile{
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}

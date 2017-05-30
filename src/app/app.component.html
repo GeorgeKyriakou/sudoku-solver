@@ -1,0 +1,47 @@
+<div class="jumbotron text-center">
+    <h1>Sudoku</h1>
+    <p>-ninja-</p>
+</div>
+
+<div class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav navbar-right" id="navbar-main">
+      <li>Georgios Kyriakou</li>
+    </ul>
+</div>
+</div>
+
+
+<aside class="info">
+  <div class="indent">
+      <h3>Info</h3>
+      <p> For this assignment, I create an Angular 2 client displaying results, uploading files, and general
+      interface, and a Node JS server which recieves an unsolved sudoku puzzle and returns the solution.
+      Part of the logic for solving the sudoku comes from the help, and permission,
+      <a href="https://github.com/carlinoo/Coding-Challenges/tree/master/Sudoku%20Solver%20in%20P5.js%20-%20Coding%20Challenge%20No.%208">Carlino Gonzalez's</a> javascript code.</p>
+      <h3>Challenges</h3>
+      <p>Challenges faced for this assignment, mainly concerned the back end part of it, since solving a sudoku puzzle
+      efficiently, can become an exponentially hard task. (e.g: <a href="http://www.sudokuwiki.org/sudoku.html"> this example</a>). However,
+      a backtracking algorithm can be used in most cases that will be efficient in solving most of the puzzles, even though some puzzles
+      can be written with resilience against this algorithm, which leads to more complex algorithms being required
+       <a href="http://www.csc.kth.se/utbildning/kth/kurser/DD143X/dkand12/Group6Alexander/final/Patrik_Berggren_David_Nilsson.report.pdf">
+         (BERGGREN,NILSSON 2012)</a>.
+      </p>
+      <p>Gonzalez, implemets this backtracking algorithm very efficiently, and was kind enough to allow me to use his brainchild
+      for my application.</p>
+      <h3>Future work || Improvements</h3>
+      <p>For further improvement of this assignment, I would first try implementing the puzzle generator at a different endpoint. Then,
+      different algorithms, e.g  Rule-based solver which is proven to be more efficient that the backtracking algorithm (BERGGREN,NILSSON 2012). My third
+      improvement would be to add a database for already solved puzzles, which would possibly improve the efficiency of the whole application even further,
+      especially for more complex puzzles. Finally, visual improvements for the Angular client would be made.</p>
+      <h3>Other Sources</h3>
+      <p><a href="https://angular.io/">Angular.io</a></p>
+      <p><a href="https://github.com/angular/quickstart">Angular quickstart</a></p>
+      <p><a href="https://www.w3schools.com/bootstrap/">W3Schools, Bootstrap</a></p>
+      <p><a href="https://stackoverflow.com/">StackOverflow</a></p>
+      <p><a href="http://www.color-hex.com/color-palettes/">Color Palette</a></p>
+  </div>
+</aside>
+    <span class="sudoku"><rFile></rFile></span>

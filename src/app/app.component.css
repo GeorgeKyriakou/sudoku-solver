@@ -1,0 +1,24 @@
+body{
+  background-color: #ffeead;
+}
+.jumbotron{
+  margin-bottom: auto;
+  background-color: #ffcc5c;
+}
+.info{
+  float:left;
+  width: 25%;
+  background-color: #96ceb4;
+}
+.sudoku{
+  width: 70%;
+  float: right;
+  margin-right: 2%;
+}
+.indent{
+ padding-left: 10px;
+ padding-right: 5px;
+}
+.navbar{
+  margin-bottom: auto;
+}
